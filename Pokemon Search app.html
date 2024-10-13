@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <meta name="author" content="Jesse Abu">
+  <title>Pokemen catcher</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+ <body>
+  <main>
+    <div class="search-box"> 
+     <h3>Search your Pokemon by Id or Name:</h3>
+     <div>
+      <input type="text" id="search-input" required/>
+      <button id="search-button">Search</button>
+     </div>
+     <div class="search-container hidden">
+        
+      <div>
+        <label for="pokemon-id" id="pokemon-name"></label> <span id="pokemon-id"></span>
+       <p>Weight: <span id="weight"></span></p>
+       <p>Height: <span id="height"></span></p>
+      </div>
+     <div id="image"></div>
+     <div id="types"></div>
+     <div class="attributes-tbl">
+      <table>
+        <tr>
+          <th>EXP</th>
+          <th>STATS</th>
+        </tr>
+        <tr>
+          <td>HP:</td>
+          <td id="hp"></td>
+        </tr>
+        <tr>
+          <td>ATTACK:</td>
+          <td id="attack"></td>
+        </tr>
+        <tr>
+          <td>DEFENSE:</td>
+          <td id="defense"></td>
+        </tr>
+        <tr>
+          <td>SPECIAL ATTACK:</td>
+          <td id="special-attack"></td>
+        </tr>
+        <tr>
+          <td>SPECIAL DEFENSE:</td>
+          <td id="special-defense"></td>
+        </tr>
+        <tr>
+          <td>SPEED:</td>
+          <td id="speed"></td>
+        </tr>
+      </table>
+     </div>
+    </div>
+    </div>
+    <div class="color-box"></div>
+  </main>
+ <script src="./script.js"></script>
+ </body>
+</html>
+
